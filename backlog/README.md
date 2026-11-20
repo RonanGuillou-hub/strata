@@ -1,8 +1,8 @@
 # Backlog Strata
 
-**Version 1.0, 20 novembre 2026, validée par l'utilisateur.**
+**Version 1.1, 20 novembre 2026, validée par l'utilisateur.** Version 1.1 : décisions PO-01, PO-04 et PO-05 reportées au cahier des charges 0.20.
 
-Ce dossier est la source texte du backlog : la liste ordonnée de ce qu'il faut construire. Il découle du cahier des charges (version 0.19), dont il reprend les identifiants : EF pour les exigences fonctionnelles, RG pour les règles de gestion, ENF pour les exigences non fonctionnelles, DT pour les décisions techniques. Le document Word du backlog, rangé dans `iFastLearn/docs/`, est généré à partir de ces fichiers.
+Ce dossier est la source texte du backlog : la liste ordonnée de ce qu'il faut construire. Il découle du cahier des charges (version 0.20), dont il reprend les identifiants : EF pour les exigences fonctionnelles, RG pour les règles de gestion, ENF pour les exigences non fonctionnelles, DT pour les décisions techniques. Le document Word du backlog, rangé dans `iFastLearn/docs/`, est généré à partir de ces fichiers.
 
 ## Fichiers
 
@@ -65,15 +65,15 @@ Une story est **terminée** quand :
 
 ## Points ouverts et décisions
 
-PO-01, PO-04, PO-05 et PO-06 ont été tranchés le 20 novembre 2026 : la proposition est retenue.
+PO-01, PO-04, PO-05 et PO-06 ont été tranchés le 20 novembre 2026 : la proposition est retenue. PO-01, PO-04 et PO-05 sont reportés au cahier des charges 0.20.
 
 | Réf. | Question | Proposition |
 |---|---|---|
-| PO-01 | Quelle note FSRS reçoit un QCM faux ? Le cahier des charges ne fixe que le QCM juste (« bien »). | « à revoir » (Again), la note la plus basse. À ajouter au cahier des charges (RG-28 et DT-09). |
+| PO-01 | Quelle note FSRS reçoit un QCM faux ? Le cahier des charges ne fixe que le QCM juste (« bien »). | « à revoir » (Again), la note la plus basse. Reporté au cahier des charges 0.20 (RG-28, DT-09). |
 | PO-02 | Quelle bibliothèque pour SQLite (accès direct, ou bibliothèque qui génère le code d'accès) ? | À trancher dans T-04 et à consigner en DT-15. |
 | PO-03 | Les tests de bout en bout ont besoin du téléphone : ils ne peuvent pas tourner dans l'intégration continue. | Les lancer à la main avant de déclarer une story terminée. |
-| PO-04 | Qu'est-ce qu'une carte « réussie » dans le bilan de séance (EF-20) ? Le cahier des charges ne le dit pas. | Toute carte notée autre chose que « à revoir » (US-16). |
-| PO-05 | Le prochain cap affiché sur l'accueil (EF-22) : le déblocage du suivant se mesure-t-il par rapport à 50 % ? | Oui : cap = 50 % tant que le suivant est bloqué, puis 80 % (US-18). |
+| PO-04 | Qu'est-ce qu'une carte « réussie » dans le bilan de séance (EF-20) ? Le cahier des charges ne le dit pas. | Toute carte notée autre chose que « à revoir » (US-16). Reporté au cahier des charges 0.20 (EF-20, lexique). |
+| PO-05 | Le prochain cap affiché sur l'accueil (EF-22) : le déblocage du suivant se mesure-t-il par rapport à 50 % ? | Oui : cap = 50 % tant que le suivant est bloqué, puis 80 % (US-18). Reporté au cahier des charges 0.20 (EF-22). |
 | PO-06 | Le prototype de consigne (DT-08) manquait dans la liste des stories techniques annoncée. | Ajouté en T-09, avant US-05. |
 
 ## Lexique
