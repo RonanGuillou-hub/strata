@@ -5,7 +5,7 @@ Cahier des charges, section 3.5. Exigences EF-25 à EF-27, règles RG-42 à RG-4
 ---
 
 ## US-21 Saisir et vérifier la clé d'accès au service d'IA
-Épic E · Tranche 1 · Taille M · Statut : à faire
+Épic E · Tranche 1 · Taille M
 Exigences : EF-25, EF-27, ENF-02 · Règles : RG-42, RG-43 · Décisions : DT-07, DT-12 · Écran : 8. Paramètres · Dépend de : T-04
 
 En tant qu'auteur, je veux saisir ma clé d'accès au service d'intelligence artificielle et savoir tout de suite si elle fonctionne, afin de pouvoir générer des cartes.
@@ -21,7 +21,7 @@ En tant qu'auteur, je veux saisir ma clé d'accès au service d'intelligence art
 ---
 
 ## US-22 Régler le plafond de cartes par module
-Épic E · Tranche 2 · Taille S · Statut : à faire
+Épic E · Tranche 2 · Taille S
 Exigences : EF-26, ENF-07 · Règles : RG-12, RG-44 à RG-46 · Écran : 8. Paramètres · Dépend de : US-05
 
 En tant qu'auteur, je veux régler le nombre maximal de cartes par module, afin d'adapter le volume de cartes, et donc le coût de génération, à mes cours.

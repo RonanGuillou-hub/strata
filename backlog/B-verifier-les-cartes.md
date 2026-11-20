@@ -5,7 +5,7 @@ Cahier des charges, section 3.2. Exigences EF-06 à EF-13, règles RG-15 à RG-2
 ---
 
 ## US-07 Vérifier les cartes une par une
-Épic B · Tranche 1 · Taille M · Statut : à faire
+Épic B · Tranche 1 · Taille M
 Exigences : EF-06, EF-07, EF-08, EF-11, EF-12, ENF-01, ENF-03 · Règles : RG-02, RG-03, RG-15 à RG-19 · Écran : 4. Vérification · Dépend de : US-05
 
 En tant qu'auteur, je veux examiner chaque carte générée et l'accepter ou la rejeter avec un motif, afin que seules des cartes justes entrent en révision.
@@ -22,7 +22,7 @@ En tant qu'auteur, je veux examiner chaque carte générée et l'accepter ou la 
 ---
 
 ## US-08 Annuler la dernière décision
-Épic B · Tranche 2 · Taille S · Statut : à faire
+Épic B · Tranche 2 · Taille S
 Exigences : EF-09 · Règles : RG-20 · Écran : 4. Vérification · Dépend de : US-07
 
 En tant qu'auteur, je veux annuler en un geste ma dernière décision, afin de corriger tout de suite une erreur de doigt.
@@ -35,7 +35,7 @@ En tant qu'auteur, je veux annuler en un geste ma dernière décision, afin de c
 ---
 
 ## US-09 Voir toutes les cartes du module et changer une décision
-Épic B · Tranche 2 · Taille M · Statut : à faire
+Épic B · Tranche 2 · Taille M
 Exigences : EF-10, EF-11 · Règles : RG-20 · Écran : 9. Cartes du module · Dépend de : US-07
 
 En tant qu'auteur, je veux voir toutes les cartes d'un module avec leur décision, afin de revenir sur un choix avant de valider.
@@ -49,7 +49,7 @@ En tant qu'auteur, je veux voir toutes les cartes d'un module avec leur décisio
 ---
 
 ## US-10 Relire le récapitulatif et valider le module
-Épic B · Tranche 1 · Taille M · Statut : à faire
+Épic B · Tranche 1 · Taille M
 Exigences : EF-13 · Règles : RG-20 à RG-23, RG-40 · Écran : 4. Vérification · Dépend de : US-07
 
 En tant qu'auteur, je veux relire le récapitulatif de mes décisions puis valider le module, afin de faire entrer ses cartes acceptées en révision.

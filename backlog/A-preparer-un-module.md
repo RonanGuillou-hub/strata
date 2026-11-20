@@ -5,7 +5,7 @@ Cahier des charges, section 3.1. Exigences EF-01 à EF-05, règles RG-04 à RG-1
 ---
 
 ## US-01 Créer un cours
-Épic A · Tranche 1 · Taille S · Statut : à faire
+Épic A · Tranche 1 · Taille S
 Exigences : EF-01 · Écran : 1. Accueil · Dépend de : T-04
 
 En tant qu'auteur, je veux créer un cours en lui donnant un nom, afin d'y ranger les modules que j'étudie.
@@ -20,7 +20,7 @@ En tant qu'auteur, je veux créer un cours en lui donnant un nom, afin d'y range
 ---
 
 ## US-02 Créer et ordonner les modules d'un cours
-Épic A · Tranche 1 · Taille M · Statut : à faire
+Épic A · Tranche 1 · Taille M
 Exigences : EF-02 · Règles : RG-05, RG-14 · Écran : 2. Modules du cours · Dépend de : US-01
 
 En tant qu'auteur, je veux créer les modules de mon cours dans l'ordre où je les étudie, afin que chacun se débloque après le précédent.
@@ -35,7 +35,7 @@ En tant qu'auteur, je veux créer les modules de mon cours dans l'ordre où je l
 ---
 
 ## US-03 Ajouter une ressource à un module
-Épic A · Tranche 1 · Taille L · Statut : à faire
+Épic A · Tranche 1 · Taille L
 Exigences : EF-03 · Règles : RG-04, RG-05, RG-07 · Décisions : DT-05, DT-06 · Écran : 3. Module · Dépend de : US-02, T-06, T-07
 
 En tant qu'auteur, je veux ajouter à un module un PDF ou un notebook choisi dans mon espace de stockage en ligne, afin que les cartes soient générées à partir de mes cours.
@@ -51,7 +51,7 @@ En tant qu'auteur, je veux ajouter à un module un PDF ou un notebook choisi dan
 ---
 
 ## US-04 Voir et retirer les ressources d'un module
-Épic A · Tranche 2 · Taille S · Statut : à faire
+Épic A · Tranche 2 · Taille S
 Exigences : EF-04 · Règles : RG-05, RG-06 · Écran : 3. Module · Dépend de : US-03
 
 En tant qu'auteur, je veux voir les ressources d'un module et en retirer une, afin de corriger une erreur avant la génération.
@@ -64,7 +64,7 @@ En tant qu'auteur, je veux voir les ressources d'un module et en retirer une, af
 ---
 
 ## US-05 Générer les cartes d'un module
-Épic A · Tranche 1 · Taille L · Statut : à faire
+Épic A · Tranche 1 · Taille L
 Exigences : EF-05, ENF-04, ENF-07 · Règles : RG-01, RG-06 à RG-08, RG-11 à RG-13 · Décisions : DT-07 · Écran : 3. Module · Dépend de : US-03, US-21, T-09
 
 En tant qu'auteur, je veux lancer la génération des cartes d'un module, afin d'obtenir des cartes à vérifier sans les écrire moi-même.
@@ -81,7 +81,7 @@ En tant qu'auteur, je veux lancer la génération des cartes d'un module, afin d
 ---
 
 ## US-06 Tenir compte des rejets passés et écarter les doublons
-Épic A · Tranche 2 · Taille M · Statut : à faire
+Épic A · Tranche 2 · Taille M
 Exigences : EF-05 · Règles : RG-09, RG-10 · Décisions : DT-13 · Dépend de : US-05, US-10
 
 En tant qu'auteur, je veux que la génération apprenne de mes rejets et écarte les cartes en double, afin d'avoir moins de cartes à rejeter au fil des modules.

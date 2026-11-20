@@ -5,7 +5,7 @@ Cahier des charges, section 3.3. Exigences EF-14 à EF-20, règles RG-24 à RG-3
 ---
 
 ## US-11 Lancer une séance sur un cours
-Épic C · Tranche 1 · Taille M · Statut : à faire
+Épic C · Tranche 1 · Taille M
 Exigences : EF-14, ENF-01 · Règles : RG-24 à RG-26, RG-40 · Écran : 1. Accueil · Dépend de : US-10, T-08
 
 En tant qu'apprenant, je veux lancer une séance de révision sur un cours, afin de réviser les cartes du jour.
@@ -22,7 +22,7 @@ En tant qu'apprenant, je veux lancer une séance de révision sur un cours, afin
 ---
 
 ## US-12 Répondre à un QCM
-Épic C · Tranche 1 · Taille S · Statut : à faire
+Épic C · Tranche 1 · Taille S
 Exigences : EF-15 · Règles : RG-27, RG-29 à RG-31 · Écran : 5. Séance · Dépend de : US-11, T-08
 
 En tant qu'apprenant, je veux choisir une réponse à un QCM puis voir la correction, afin de savoir tout de suite si je connais la réponse.
@@ -37,7 +37,7 @@ En tant qu'apprenant, je veux choisir une réponse à un QCM puis voir la correc
 ---
 
 ## US-13 Répondre à une question ouverte et se noter
-Épic C · Tranche 1 · Taille S · Statut : à faire
+Épic C · Tranche 1 · Taille S
 Exigences : EF-16, ENF-05 · Règles : RG-27 à RG-31 · Écran : 5. Séance · Dépend de : US-11, T-08
 
 En tant qu'apprenant, je veux réfléchir à ma réponse, révéler la bonne réponse et juger moi-même si je la connaissais, afin de réviser les notions qui ne se corrigent pas automatiquement.
@@ -52,7 +52,7 @@ En tant qu'apprenant, je veux réfléchir à ma réponse, révéler la bonne ré
 ---
 
 ## US-14 Voir la section d'origine d'une carte
-Épic C · Tranche 2 · Taille S · Statut : à faire
+Épic C · Tranche 2 · Taille S
 Exigences : EF-17 · Règles : RG-07 · Écran : 5. Séance · Dépend de : US-12, US-13
 
 En tant qu'apprenant, je veux voir la section de la ressource d'où vient une carte, une fois la réponse révélée, afin de relire le passage du cours quand je me suis trompé.
@@ -65,7 +65,7 @@ En tant qu'apprenant, je veux voir la section de la ressource d'où vient une ca
 ---
 
 ## US-15 Suivre l'avancement, interrompre et terminer une séance
-Épic C · Tranche 1 · Taille M · Statut : à faire
+Épic C · Tranche 1 · Taille M
 Exigences : EF-18, EF-19, ENF-03, ENF-04 · Règles : RG-26, RG-32, RG-33 · Décisions : DT-10 · Écran : 5. Séance · Dépend de : US-12, US-13
 
 En tant qu'apprenant, je veux voir où j'en suis et pouvoir m'arrêter entre deux cartes, afin de réviser au rythme de ma journée.
@@ -82,7 +82,7 @@ En tant qu'apprenant, je veux voir où j'en suis et pouvoir m'arrêter entre deu
 ---
 
 ## US-16 Voir le bilan de la séance
-Épic C · Tranche 2 · Taille S · Statut : à faire
+Épic C · Tranche 2 · Taille S
 Exigences : EF-20 · Écran : 6. Fin de séance · Dépend de : US-15, US-17
 
 En tant qu'apprenant, je veux voir le bilan de ma séance, afin de mesurer ce que j'ai fait et ce que j'ai fait progresser.

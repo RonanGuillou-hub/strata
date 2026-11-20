@@ -5,7 +5,7 @@ Cahier des charges, section 3.4. Exigences EF-21 à EF-24, règles RG-34 à RG-4
 ---
 
 ## US-17 Voir l'état et la rétention de chaque module
-Épic D · Tranche 1 · Taille L · Statut : à faire
+Épic D · Tranche 1 · Taille L
 Exigences : EF-21 · Règles : RG-23, RG-34 à RG-41 · Écran : 2. Modules du cours · Dépend de : US-12, US-13
 
 En tant qu'apprenant, je veux voir l'état et la rétention de chaque module, afin de savoir ce que je retiens vraiment et ce qui se débloque.
@@ -24,7 +24,7 @@ En tant qu'apprenant, je veux voir l'état et la rétention de chaque module, af
 ---
 
 ## US-18 Voir les cartes du jour et le prochain cap sur l'accueil
-Épic D · Tranche 2 · Taille M · Statut : à faire
+Épic D · Tranche 2 · Taille M
 Exigences : EF-22 · Règles : RG-25, RG-37, RG-39 · Écran : 1. Accueil · Dépend de : US-11, US-17
 
 En tant qu'apprenant, je veux voir sur l'accueil, pour chaque cours, ce qui m'attend aujourd'hui et mon prochain cap, afin d'avoir envie de lancer la séance.
@@ -38,7 +38,7 @@ En tant qu'apprenant, je veux voir sur l'accueil, pour chaque cours, ce qui m'at
 ---
 
 ## US-19 Voir le tableau de progression du cours
-Épic D · Tranche 2 · Taille M · Statut : à faire
+Épic D · Tranche 2 · Taille M
 Exigences : EF-23 · Règles : RG-22, RG-33 · Critères de réussite : C1, C2 · Écran : 7. Progression · Dépend de : US-17
 
 En tant qu'apprenant, je veux voir un tableau de progression du cours, afin de lire d'un coup d'œil où j'en suis par rapport aux deux critères de réussite.
@@ -52,7 +52,7 @@ En tant qu'apprenant, je veux voir un tableau de progression du cours, afin de l
 ---
 
 ## US-20 Être prévenu des changements d'état des modules
-Épic D · Tranche 2 · Taille S · Statut : à faire
+Épic D · Tranche 2 · Taille S
 Exigences : EF-24 · Règles : RG-37 à RG-39 · Écrans : 5. Séance, 6. Fin de séance · Dépend de : US-17
 
 En tant qu'apprenant, je veux être prévenu quand un module est débloqué, devient maîtrisé ou passe « à consolider », afin de voir mes progrès au moment où ils arrivent.

@@ -9,7 +9,7 @@ Ordre : T-01 à T-07, puis T-09. T-08 (FSRS) se fait plus tard, juste avant l'é
 ---
 
 ## T-01 Environnement de développement
-Épic 0 · Taille M · Statut : à faire
+Épic 0 · Taille M
 Décisions : DT-02, DT-03 · Dépend de : rien
 
 **Objectif.** Installer Flutter et Android SDK dans Ubuntu (WSL), relier le téléphone par le débogage sans fil, et développer dans VS Code connecté à WSL.
@@ -26,7 +26,7 @@ Repli : si le critère 1 ou 4 ne tient pas, passer au câble USB avec `usbipd-wi
 ---
 
 ## T-02 Projet Flutter et thème Strata
-Épic 0 · Taille S · Statut : à faire
+Épic 0 · Taille S
 Décisions : DT-02 · Exigences : ENF-05, ENF-06 · Dépend de : T-01
 
 **Objectif.** Créer le projet avec sa structure en couches (données, règles, écrans), l'analyse automatique du code, et le thème du design system Strata.
@@ -40,7 +40,7 @@ Décisions : DT-02 · Exigences : ENF-05, ENF-06 · Dépend de : T-01
 ---
 
 ## T-03 Framework de tests
-Épic 0 · Taille M · Statut : à faire
+Épic 0 · Taille M
 Dépend de : T-02
 
 **Objectif.** Mettre en place les trois sortes de tests (unitaire, d'écran, de bout en bout), avec une convention qui relie chaque test au critère d'acceptation qu'il couvre.
@@ -54,7 +54,7 @@ Dépend de : T-02
 ---
 
 ## T-04 Base de données SQLite
-Épic 0 · Taille M · Statut : à faire
+Épic 0 · Taille M
 Décisions : DT-10, DT-11 · Données : partie 6 du cahier des charges · Exigences : ENF-02, ENF-03 · Dépend de : T-03
 
 **Objectif.** Créer la base avec les 14 tables du dictionnaire de données, selon les conventions de la section 6.2, et préparer la façon de la faire évoluer sans perdre de données.
@@ -71,7 +71,7 @@ Décisions : DT-10, DT-11 · Données : partie 6 du cahier des charges · Exigen
 ---
 
 ## T-05 Intégration continue
-Épic 0 · Taille S · Statut : à faire
+Épic 0 · Taille S
 Dépend de : T-03
 
 **Objectif.** Lancer automatiquement les tests à chaque envoi sur GitHub, avec GitHub Actions.
@@ -86,7 +86,7 @@ Les tests de bout en bout restent lancés à la main sur le téléphone (point o
 ---
 
 ## T-06 Spike : import d'un fichier OneDrive
-Épic 0 · Taille S · Durée limitée : 1 jour · Statut : à faire
+Épic 0 · Taille S · Durée limitée : 1 jour
 Décisions : DT-05 · Dépend de : T-01
 
 **Question.** Depuis l'application, le sélecteur de fichiers d'Android permet-il de choisir un PDF ou un notebook rangé dans OneDrive, et de lire son contenu ?
@@ -102,7 +102,7 @@ Le code du prototype est jetable : il n'entre pas dans l'application.
 ---
 
 ## T-07 Spike : lecture du texte d'un PDF et d'un notebook
-Épic 0 · Taille S · Durée limitée : 1 jour · Statut : à faire
+Épic 0 · Taille S · Durée limitée : 1 jour
 Décisions : DT-06 · Règles : RG-04, RG-07 · Dépend de : T-01
 
 **Question.** Une bibliothèque Dart extrait-elle le texte d'un vrai PDF de cours, et peut-on le découper en sections d'après ses titres ?
@@ -117,7 +117,7 @@ Décisions : DT-06 · Règles : RG-04, RG-07 · Dépend de : T-01
 ---
 
 ## T-08 Intégration de FSRS
-Épic 0 · Taille S · Statut : à faire
+Épic 0 · Taille S
 Décisions : DT-09, DT-10 · Règles : RG-28, RG-29, RG-34 · Dépend de : T-04 · Placée juste avant l'épic C
 
 **Objectif.** Intégrer le paquet `fsrs` 2.0.1 derrière un point d'accès unique, avec la correspondance des notes.
@@ -131,7 +131,7 @@ Décisions : DT-09, DT-10 · Règles : RG-28, RG-29, RG-34 · Dépend de : T-04 
 ---
 
 ## T-09 Prototype de la consigne de génération
-Épic 0 · Taille M · Durée limitée : 2 jours · Statut : à faire
+Épic 0 · Taille M · Durée limitée : 2 jours
 Décisions : DT-07, DT-08, DT-13 · Règles : RG-08 à RG-13 · Critère de réussite : C2 · Dépend de : T-07
 
 **Objectif.** Régler, avec un prototype Python jetable, la consigne envoyée au service d'intelligence artificielle, avant de coder la génération dans l'application (US-05).

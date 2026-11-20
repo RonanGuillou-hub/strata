@@ -1,6 +1,6 @@
 # Backlog Strata
 
-**Version 1.1, 20 novembre 2026, validée par l'utilisateur.** Version 1.1 : décisions PO-01, PO-04 et PO-05 reportées au cahier des charges 0.20.
+**Version 1.2, 20 novembre 2026, validée par l'utilisateur.** Version 1.1 : décisions PO-01, PO-04 et PO-05 reportées au cahier des charges 0.20. Version 1.2 : le sprint et l'état des stories sont suivis dans le classeur des sprints, plus dans ces fichiers.
 
 Ce dossier est la source texte du backlog : la liste ordonnée de ce qu'il faut construire. Il découle du cahier des charges (version 0.20), dont il reprend les identifiants : EF pour les exigences fonctionnelles, RG pour les règles de gestion, ENF pour les exigences non fonctionnelles, DT pour les décisions techniques. Le document Word du backlog, rangé dans `iFastLearn/docs/`, est généré à partir de ces fichiers.
 
@@ -29,7 +29,7 @@ Dans la tranche 1, l'ordre suit les dépendances : il faut un cours pour créer 
 
 ```
 ## US-12 Répondre à un QCM
-Épic C · Tranche 1 · Taille S · Statut : à faire
+Épic C · Tranche 1 · Taille S
 Exigences : EF-15 · Règles : RG-27, RG-30, RG-31 · Écran : 5. Séance · Dépend de : US-11, T-08
 
 En tant qu'apprenant, je veux …, afin de …
@@ -44,7 +44,7 @@ Critères d'acceptation
   - **S** : un seul écran ou une règle simple.
   - **M** : plusieurs règles, ou un écran qui change d'état.
   - **L** : un service extérieur, ou plusieurs écrans.
-- **Statut.** Trois valeurs : à faire, en cours, terminée.
+- **Suivi.** Le sprint de chaque story et son état (à faire, en cours, en revue, terminée) sont tenus dans le classeur [`../sprints/Strata - sprints.xlsx`](../sprints/), une feuille par sprint. Ces fichiers ne portent que le contenu des stories.
 - **Stories techniques (épic 0).** Elles s'écrivent avec un objectif et des critères vérifiables, sans « En tant que… » : elles n'apportent rien de visible à l'utilisateur.
 
 ## Prête (DoR) et terminée (DoD)
@@ -61,7 +61,7 @@ Une story est **terminée** quand :
 - chaque critère d'acceptation est couvert par au moins un test automatique, et tous les tests passent dans l'intégration continue ;
 - elle respecte les exigences non fonctionnelles qui la concernent (fonctionnement sans internet, aucune perte, réactivité…) ;
 - l'utilisateur l'a essayée sur le téléphone et l'a acceptée ;
-- son statut est à jour dans ce backlog.
+- son état est « terminée » dans le classeur des sprints.
 
 ## Points ouverts et décisions
 
