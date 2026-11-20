@@ -2,8 +2,9 @@
 
 Le suivi des sprints est dans le classeur **`Strata - sprints.xlsx`** :
 
+- **Kanban** : vision globale, une bande par épic et une colonne par état (à faire, en cours, en revue, terminée) ; on peut filtrer sur un sprint.
 - **Backlog** : rappel des 31 stories ; la colonne Sprint se modifie ici, la colonne État est lue dans la feuille du sprint.
-- **Sprint 0 à Sprint 5** : une story par ligne avec son état (à faire, en cours, en revue, terminée), et un petit kanban à droite ; en bas, la revue et la rétrospective.
+- **Sprint 0 à Sprint 5** : une story par ligne avec son état ; en bas, la revue et la rétrospective.
 
 Le contenu des stories (story, critères d'acceptation) est dans [`../backlog/`](../backlog/), qui fait foi. Le classeur fait foi pour le sprint et l'état.
 
