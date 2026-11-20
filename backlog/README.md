@@ -47,7 +47,9 @@ Critères d'acceptation
 - **Statut.** Trois valeurs : à faire, en cours, terminée.
 - **Stories techniques (épic 0).** Elles s'écrivent avec un objectif et des critères vérifiables, sans « En tant que… » : elles n'apportent rien de visible à l'utilisateur.
 
-## Prête et terminée
+## Prête (DoR) et terminée (DoD)
+
+Ces deux listes valent pour toutes les stories. La condition « prête » (Definition of Ready, DoR) est le filtre d'entrée : une story n'entre dans un sprint que si elle est assez claire pour être développée sans revenir poser de questions. La condition « terminée » (Definition of Done, DoD) est le filtre de sortie : la qualité minimale pour déclarer une story finie. Les critères d'acceptation, eux, sont propres à chaque story : ils disent ce qu'elle doit faire. La DoD dit avec quelle qualité le travail doit être livré.
 
 Une story est **prête** (elle peut entrer dans un sprint) quand :
 - elle renvoie à au moins une exigence du cahier des charges, ou à une décision technique ;
